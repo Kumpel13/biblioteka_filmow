@@ -74,8 +74,8 @@ def search(x):
     lista = []
     for film in library:
         if film.title == x:
-            lista.append(x)
-        return x
+            lista.append(film)
+    return lista
 
 print('----------------------------')
 print("Punkt 8")
